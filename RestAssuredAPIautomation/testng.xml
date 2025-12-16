@@ -1,0 +1,12 @@
+<suite name="QE API Suite" parallel="tests" thread-count="2">
+    <test name="CRUD Tests">
+        <groups>
+            <run>
+                <include name="CRUD"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.ranganath.tests.tests"/>
+        </packages>
+    </test>
+</suite>
